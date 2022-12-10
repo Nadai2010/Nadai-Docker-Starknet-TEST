@@ -5,17 +5,17 @@
 
 ## Nadai Configuración Docker para Starknet
 
-Esta repo es una prueba de como configurar Docker y encapsular los proyectos que estemos realizando en contenedores. Este Workshop ha sido realizado siguiendo los pasos oficiales,
+Esta repo es una prueba de como configurar Docker y encapsular los proyectos que estemos realizando en contenedores. Este Workshop ha sido realizado siguiendo los pasos oficiales.
 
 - [David Barreto Starware Enviroment With Docker](https://medium.com/starknet-edu/setting-up-a-starknet-dev-environment-with-docker-19955188bb20)
  
 Para crear un entorno de desarrollo de StarkNet que encapsule las dependencias globales y del proyecto, deberá tener instalado [Docker Desktop](https://docs.docker.com/get-docker/), [VSCode](https://code.visualstudio.com/download) , la extensión [VSCode Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) , un `Dockerfile` y un archivo `.devcontainer.json`, ambos en la raíz de su carpeta de proyecto.
 
 ---
-**NOTA: Aunque iremos paso a paso, no podremos hacer el tutorial muy extenso, así que las partes de algunas instalaciones básicas sobre Docker, Vscode o ajustes básicos deberá ir revisando cada guía oficial. EL Dockerfile irá cambiando a lo largo del tutorial enseñandose por fotos, puede encontrar el [Dockerfile final](/Dockerfile)**
+**NOTA: Aunque iremos paso a paso, no podremos hacer el tutorial muy extenso, así que las partes de algunas instalaciones básicas sobre Docker, Vscode o ajustes básicos deberá ir revisando cada guía oficial. EL Dockerfile irá cambiando a lo largo del tutorial enseñandose por fotos, puede encontrar el [Dockerfile final](/Dockerfile)*
 ---
 
----
+
 
 ## El problema que queremos resolver
 
@@ -72,7 +72,7 @@ Luego le indicaremos como construir la imagen con el siguiente comando.
 docker build -t starknet-dev .
 ```
 
-![Graph](/im%C3%A1genes/build.png.png)  
+![Graph](/im%C3%A1genes/build.png)  
 
 En el comando anterior, le indicamos a Docker que cree una imagen a partir de un archivo Dockerfile presente en el directorio actual `( . )` y que estamos etiquetando `(nombrando)` como `starknet-dev`.
 
