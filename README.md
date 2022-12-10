@@ -209,7 +209,7 @@ Podemos decir que funcionó porque ahora tenemos el compilado y el archivo abi e
 tree
 ```
 
-![Graph](tree2.png)
+![Graph](/im%C3%A1genes/tree2.png)
 
 ---
 
