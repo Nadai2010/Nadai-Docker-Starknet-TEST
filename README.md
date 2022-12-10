@@ -11,8 +11,9 @@ Esta repo es una prueba de como configurar Docker y encapsular los proyectos que
  
 Para crear un entorno de desarrollo de StarkNet que encapsule las dependencias globales y del proyecto, deberá tener instalado [Docker Desktop](https://docs.docker.com/get-docker/), [VSCode](https://code.visualstudio.com/download) , la extensión [VSCode Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) , un `Dockerfile` y un archivo `.devcontainer.json`, ambos en la raíz de su carpeta de proyecto.
 
----
-*NOTA: Aunque iremos paso a paso, no podremos hacer el tutorial muy extenso, así que las partes de algunas instalaciones básicas sobre Docker, Vscode o ajustes básicos deberá ir revisando cada guía oficial. EL Dockerfile irá cambiando a lo largo del tutorial enseñandose por fotos, puede encontrar el [Dockerfile final](/Dockerfile)*
+
+**NOTA: Aunque iremos paso a paso, no podremos hacer el tutorial muy extenso, así que las partes de algunas instalaciones básicas sobre Docker, Vscode o ajustes básicos deberá ir revisando cada guía oficial. EL Dockerfile irá cambiando a lo largo del tutorial enseñandose por fotos, puede encontrar el [Dockerfile final](/Dockerfile)**
+
 ---
 
 
