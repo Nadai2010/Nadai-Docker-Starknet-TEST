@@ -1,0 +1,18 @@
+{
+    "name": "starknet-dev",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "Starkware.cairo"
+        ]
+      }
+    },
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "sh"
+    }
+  }
