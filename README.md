@@ -286,7 +286,7 @@ Hechemos un vistazo a como deben de ir quedando nuesto arbol de archivos en el c
 ```bash
 tree . -L 1
 ```
-![Graph](treeL.png)  
+![Graph](/im%C3%A1genes/treeL.png)  
 
 ---
 
